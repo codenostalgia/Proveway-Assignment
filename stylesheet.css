@@ -52,28 +52,30 @@ body {
 }
 
 .item-1 {
-  text-align: center;
   margin-top: 6%;
-  color: #ff6b82;
+
   font-family: sans-serif;
   font-size: 3vmin;
+  text-align: center;
+  color: #ff6b82;
 }
 
 .item-2,
 .item-3,
 .item-4 {
   height: 15%;
-  display: flex;
-  text-align: center;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* border: 2px solid rgb(126, 178, 226); */
-  /* border: 2px solid black; */
+
+  text-align: center;
+
+  display: flex;
 }
 
 .item-4 {
-  display: flex;
   height: 15%;
+
+  display: flex;
 }
 
 .discount {
@@ -81,13 +83,14 @@ body {
   height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: #ff6b82;
-  color: #ffffff;
+
   font-family: sans-serif;
+  color: #ffffff;
+  background-color: #ff6b82;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid pink; */
 }
 
 .radio-button,
@@ -103,7 +106,6 @@ body {
   width: 10%;
   height: 100%;
 
-  /* border: 2px solid violet;   */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,22 +114,22 @@ body {
 .main {
   width: 35%;
   height: 100%;
-  display: flex;
 
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid purple; */
 }
 
 .popular {
   width: 35%;
   height: 100%;
-  color: #ff6b82;
+
   font-size: 84%;
+  color: #ff6b82;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid green; */
 }
 
 .item-5 > .delivery {
@@ -146,10 +148,11 @@ body {
 .add-cart-button {
   height: 100%;
   width: 100%;
-  color: #ffffff;
-  background-color: #ff6b82;
   border-radius: 5px;
   border: none;
+
+  color: #ffffff;
+  background-color: #ff6b82;
 }
 
 .add-cart-button:hover {
@@ -161,9 +164,10 @@ body {
 }
 
 .item-7 {
+  margin-top: 1%;
+
   display: flex;
   justify-content: center;
-  margin-top: 1%;
 }
 
 .powered-by {
@@ -179,14 +183,16 @@ body {
 .expanded-3 {
   margin-top: 3%;
   height: 30%;
-  background-color: #fff9fa;
-  display: flex;
-  flex-direction: column;
   border: 2px solid #ff6b82;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+
+  background-color: #fff9fa;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .data {
@@ -198,11 +204,11 @@ body {
 
 .radio-button-selected {
   width: 10%;
-  align-content: center;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .details {
@@ -219,52 +225,59 @@ body {
 }
 
 .small-off {
-  background-color: #ff6b82;
-  margin-bottom: 2%;
-  color: #ffffff;
   width: 60%;
   height: 60%;
   padding: 2%;
-  font-size: 70%;
-  text-align: center;
+  margin-bottom: 2%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+
+  font-size: 70%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff6b82;
 }
 
 .small-price {
-  color: #949091;
   width: 100%;
   height: 60%;
   padding: 2%;
+
   font-size: 60%;
   text-align: left;
+  color: #949091;
 }
 .chart {
   width: 100%;
   height: 60%;
+
   display: grid;
   grid-template-rows: 20% 40% 40%;
   grid-template-rows: 20% 40% 40%;
 }
 
 .grid-item-1 {
+  font-size: 85%;
+
   grid-column: 2/3;
   grid-row: 1/2;
+
   display: flex;
   justify-content: left;
   align-items: end;
-  font-size: 85%;
 }
 
 .grid-item-2 {
+  font-size: 85%;
+
   grid-column: 3/4;
   grid-row: 1/2;
+
   display: flex;
   justify-content: left;
   align-items: end;
-  font-size: 85%;
 }
 
 .grid-item-3 {
