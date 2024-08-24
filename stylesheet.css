@@ -98,10 +98,6 @@ body {
   box-shadow: 0px -1px 0px #f1f1f1, 0px 1px 0px #f1f1f1;
 }
 
-.popular {
-  box-shadow: 0px -1px 0px #f1f1f1, 0px 1px 0px #f1f1f1, 1px 0px 0px #f1f1f1;
-}
-
 .radio-button {
   width: 10%;
   height: 100%;
@@ -123,6 +119,9 @@ body {
 .popular {
   width: 35%;
   height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px -1px 0px #f1f1f1, 0px 1px 0px #f1f1f1, 1px 0px 0px #f1f1f1;
 
   font-size: 84%;
   color: #ff6b82;
